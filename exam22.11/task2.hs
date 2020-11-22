@@ -9,6 +9,10 @@ main = do
   string <- getLine
   let list = map (read . (: "")) string :: [Int]
   putStrLn (show (minElem list))
+  
+--Input: 2932158
+--Output: 1
+--Finding the smalest value in list
 
 -- main :: IO ()
 -- main = do
