@@ -1,5 +1,10 @@
 import Data.List
 
+--aritmetichno delenie
+--input: 2222
+--output: 2
+-- 2+2+2+2=8/len 4=2
+
 main :: IO ()
 main = do
   input <- getLine
